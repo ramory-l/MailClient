@@ -1,0 +1,1 @@
+Pods/mailcore2-ios/lib/*.a filter=lfs diff=lfs merge=lfs -text

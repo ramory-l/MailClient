@@ -1,0 +1,6 @@
+framework module Pods_MailClient {
+  umbrella header "Pods-MailClient-umbrella.h"
+
+  export *
+  module * { export * }
+}

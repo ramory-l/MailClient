@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		63DC0025C0C971480F7AE70F /* Pods_MailClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 174F22E213BBC5312807A66D /* Pods_MailClient.framework */; };
+		9833FC4423C8F26400CE10FE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9833FC4323C8F26400CE10FE /* AppDelegate.m */; };
+		9833FC4723C8F26400CE10FE /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9833FC4623C8F26400CE10FE /* SceneDelegate.m */; };
+		9833FC4A23C8F26400CE10FE /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9833FC4923C8F26400CE10FE /* LoginViewController.m */; };
+		9833FC4D23C8F26400CE10FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9833FC4B23C8F26400CE10FE /* Main.storyboard */; };
+		9833FC4F23C8F26800CE10FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9833FC4E23C8F26800CE10FE /* Assets.xcassets */; };
+		9833FC5223C8F26800CE10FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9833FC5023C8F26800CE10FE /* LaunchScreen.storyboard */; };
+		9833FC5523C8F26800CE10FE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9833FC5423C8F26800CE10FE /* main.m */; };
+		9883F28923D62DEB0025C1AB /* MessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9883F28823D62DEB0025C1AB /* MessageViewController.m */; };
+		9883F28D23D737270025C1AB /* MessageSentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9883F28C23D737270025C1AB /* MessageSentViewController.m */; };
+		98BD401423CA4F9000703497 /* InboxViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98BD401323CA4F9000703497 /* InboxViewController.m */; };
+		98BD401723CA501C00703497 /* MyTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 98BD401623CA501C00703497 /* MyTableViewCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		174F22E213BBC5312807A66D /* Pods_MailClient.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MailClient.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C2CC1606EDF338D2B0655BC /* Pods-MailClient.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MailClient.debug.xcconfig"; path = "Target Support Files/Pods-MailClient/Pods-MailClient.debug.xcconfig"; sourceTree = "<group>"; };
+		9833FC3F23C8F26400CE10FE /* MailClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MailClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9833FC4223C8F26400CE10FE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9833FC4323C8F26400CE10FE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9833FC4523C8F26400CE10FE /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		9833FC4623C8F26400CE10FE /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		9833FC4823C8F26400CE10FE /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		9833FC4923C8F26400CE10FE /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		9833FC4C23C8F26400CE10FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9833FC4E23C8F26800CE10FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9833FC5123C8F26800CE10FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9833FC5323C8F26800CE10FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9833FC5423C8F26800CE10FE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9883F28723D62DEA0025C1AB /* MessageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MessageViewController.h; sourceTree = "<group>"; };
+		9883F28823D62DEB0025C1AB /* MessageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MessageViewController.m; sourceTree = "<group>"; };
+		9883F28B23D737270025C1AB /* MessageSentViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MessageSentViewController.h; sourceTree = "<group>"; };
+		9883F28C23D737270025C1AB /* MessageSentViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MessageSentViewController.m; sourceTree = "<group>"; };
+		98BD401223CA4F9000703497 /* InboxViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InboxViewController.h; sourceTree = "<group>"; };
+		98BD401323CA4F9000703497 /* InboxViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InboxViewController.m; sourceTree = "<group>"; };
+		98BD401523CA501C00703497 /* MyTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyTableViewCell.h; sourceTree = "<group>"; };
+		98BD401623CA501C00703497 /* MyTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyTableViewCell.m; sourceTree = "<group>"; };
+		9949668A77B2918A6AA597D0 /* Pods-MailClient.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MailClient.release.xcconfig"; path = "Target Support Files/Pods-MailClient/Pods-MailClient.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9833FC3C23C8F26400CE10FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63DC0025C0C971480F7AE70F /* Pods_MailClient.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00604A01403BB49F604C9C89 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				174F22E213BBC5312807A66D /* Pods_MailClient.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9833FC3623C8F26400CE10FE = {
+			isa = PBXGroup;
+			children = (
+				9833FC4123C8F26400CE10FE /* MailClient */,
+				9833FC4023C8F26400CE10FE /* Products */,
+				C8DC89E0379F09589A3D08B0 /* Pods */,
+				00604A01403BB49F604C9C89 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9833FC4023C8F26400CE10FE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9833FC3F23C8F26400CE10FE /* MailClient.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9833FC4123C8F26400CE10FE /* MailClient */ = {
+			isa = PBXGroup;
+			children = (
+				9833FC4223C8F26400CE10FE /* AppDelegate.h */,
+				9833FC4323C8F26400CE10FE /* AppDelegate.m */,
+				9833FC4523C8F26400CE10FE /* SceneDelegate.h */,
+				9833FC4623C8F26400CE10FE /* SceneDelegate.m */,
+				9833FC4823C8F26400CE10FE /* LoginViewController.h */,
+				9833FC4923C8F26400CE10FE /* LoginViewController.m */,
+				98BD401223CA4F9000703497 /* InboxViewController.h */,
+				98BD401323CA4F9000703497 /* InboxViewController.m */,
+				98BD401523CA501C00703497 /* MyTableViewCell.h */,
+				98BD401623CA501C00703497 /* MyTableViewCell.m */,
+				9833FC4B23C8F26400CE10FE /* Main.storyboard */,
+				9833FC4E23C8F26800CE10FE /* Assets.xcassets */,
+				9833FC5023C8F26800CE10FE /* LaunchScreen.storyboard */,
+				9833FC5323C8F26800CE10FE /* Info.plist */,
+				9833FC5423C8F26800CE10FE /* main.m */,
+				9883F28723D62DEA0025C1AB /* MessageViewController.h */,
+				9883F28823D62DEB0025C1AB /* MessageViewController.m */,
+				9883F28B23D737270025C1AB /* MessageSentViewController.h */,
+				9883F28C23D737270025C1AB /* MessageSentViewController.m */,
+			);
+			path = MailClient;
+			sourceTree = "<group>";
+		};
+		C8DC89E0379F09589A3D08B0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5C2CC1606EDF338D2B0655BC /* Pods-MailClient.debug.xcconfig */,
+				9949668A77B2918A6AA597D0 /* Pods-MailClient.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9833FC3E23C8F26400CE10FE /* MailClient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9833FC5823C8F26800CE10FE /* Build configuration list for PBXNativeTarget "MailClient" */;
+			buildPhases = (
+				BD05DCBA898D1EC965DFAA87 /* [CP] Check Pods Manifest.lock */,
+				9833FC3B23C8F26400CE10FE /* Sources */,
+				9833FC3C23C8F26400CE10FE /* Frameworks */,
+				9833FC3D23C8F26400CE10FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MailClient;
+			productName = MailClient;
+			productReference = 9833FC3F23C8F26400CE10FE /* MailClient.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9833FC3723C8F26400CE10FE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Roxane Amory";
+				TargetAttributes = {
+					9833FC3E23C8F26400CE10FE = {
+						CreatedOnToolsVersion = 11.3;
+					};
+				};
+			};
+			buildConfigurationList = 9833FC3A23C8F26400CE10FE /* Build configuration list for PBXProject "MailClient" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9833FC3623C8F26400CE10FE;
+			productRefGroup = 9833FC4023C8F26400CE10FE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9833FC3E23C8F26400CE10FE /* MailClient */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9833FC3D23C8F26400CE10FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9833FC5223C8F26800CE10FE /* LaunchScreen.storyboard in Resources */,
+				9833FC4F23C8F26800CE10FE /* Assets.xcassets in Resources */,
+				9833FC4D23C8F26400CE10FE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BD05DCBA898D1EC965DFAA87 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MailClient-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9833FC3B23C8F26400CE10FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9833FC4A23C8F26400CE10FE /* LoginViewController.m in Sources */,
+				98BD401423CA4F9000703497 /* InboxViewController.m in Sources */,
+				9833FC4423C8F26400CE10FE /* AppDelegate.m in Sources */,
+				98BD401723CA501C00703497 /* MyTableViewCell.m in Sources */,
+				9883F28D23D737270025C1AB /* MessageSentViewController.m in Sources */,
+				9833FC5523C8F26800CE10FE /* main.m in Sources */,
+				9833FC4723C8F26400CE10FE /* SceneDelegate.m in Sources */,
+				9883F28923D62DEB0025C1AB /* MessageViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9833FC4B23C8F26400CE10FE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9833FC4C23C8F26400CE10FE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9833FC5023C8F26800CE10FE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9833FC5123C8F26800CE10FE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9833FC5623C8F26800CE10FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9833FC5723C8F26800CE10FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9833FC5923C8F26800CE10FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C2CC1606EDF338D2B0655BC /* Pods-MailClient.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 52N5UYY2SG;
+				INFOPLIST_FILE = MailClient/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ru.ramory.MailClient;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9833FC5A23C8F26800CE10FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9949668A77B2918A6AA597D0 /* Pods-MailClient.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 52N5UYY2SG;
+				INFOPLIST_FILE = MailClient/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ru.ramory.MailClient;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9833FC3A23C8F26400CE10FE /* Build configuration list for PBXProject "MailClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9833FC5623C8F26800CE10FE /* Debug */,
+				9833FC5723C8F26800CE10FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9833FC5823C8F26800CE10FE /* Build configuration list for PBXNativeTarget "MailClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9833FC5923C8F26800CE10FE /* Debug */,
+				9833FC5A23C8F26800CE10FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9833FC3723C8F26400CE10FE /* Project object */;
+}
