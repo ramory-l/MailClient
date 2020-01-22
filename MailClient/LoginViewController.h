@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import <MailCore/MailCore.h>
+#import "LoginViewControllerModel.h"
 
 @interface LoginViewController : UIViewController <UITextFieldDelegate>
 

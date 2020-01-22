@@ -15,6 +15,7 @@
 		9833FC4F23C8F26800CE10FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9833FC4E23C8F26800CE10FE /* Assets.xcassets */; };
 		9833FC5223C8F26800CE10FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9833FC5023C8F26800CE10FE /* LaunchScreen.storyboard */; };
 		9833FC5523C8F26800CE10FE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9833FC5423C8F26800CE10FE /* main.m */; };
+		98570DCA23D8FD96002D24C7 /* LoginViewControllerModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 98570DC923D8FD96002D24C7 /* LoginViewControllerModel.m */; };
 		9883F28923D62DEB0025C1AB /* MessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9883F28823D62DEB0025C1AB /* MessageViewController.m */; };
 		9883F28D23D737270025C1AB /* MessageSentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9883F28C23D737270025C1AB /* MessageSentViewController.m */; };
 		98BD401423CA4F9000703497 /* InboxViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98BD401323CA4F9000703497 /* InboxViewController.m */; };
@@ -36,6 +37,8 @@
 		9833FC5123C8F26800CE10FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9833FC5323C8F26800CE10FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9833FC5423C8F26800CE10FE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		98570DC823D8FD96002D24C7 /* LoginViewControllerModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewControllerModel.h; sourceTree = "<group>"; };
+		98570DC923D8FD96002D24C7 /* LoginViewControllerModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewControllerModel.m; sourceTree = "<group>"; };
 		9883F28723D62DEA0025C1AB /* MessageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MessageViewController.h; sourceTree = "<group>"; };
 		9883F28823D62DEB0025C1AB /* MessageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MessageViewController.m; sourceTree = "<group>"; };
 		9883F28B23D737270025C1AB /* MessageSentViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MessageSentViewController.h; sourceTree = "<group>"; };
@@ -107,6 +110,8 @@
 				9883F28823D62DEB0025C1AB /* MessageViewController.m */,
 				9883F28B23D737270025C1AB /* MessageSentViewController.h */,
 				9883F28C23D737270025C1AB /* MessageSentViewController.m */,
+				98570DC823D8FD96002D24C7 /* LoginViewControllerModel.h */,
+				98570DC923D8FD96002D24C7 /* LoginViewControllerModel.m */,
 			);
 			path = MailClient;
 			sourceTree = "<group>";
@@ -217,6 +222,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9833FC4A23C8F26400CE10FE /* LoginViewController.m in Sources */,
+				98570DCA23D8FD96002D24C7 /* LoginViewControllerModel.m in Sources */,
 				98BD401423CA4F9000703497 /* InboxViewController.m in Sources */,
 				9833FC4423C8F26400CE10FE /* AppDelegate.m in Sources */,
 				98BD401723CA501C00703497 /* MyTableViewCell.m in Sources */,
