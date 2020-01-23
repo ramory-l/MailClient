@@ -12,6 +12,8 @@
 
 @end
 
+static const int kNumberOfMessages = 20;
+
 @implementation InboxViewController
 
 - (IBAction)SentEmailSegue:(id)sender {

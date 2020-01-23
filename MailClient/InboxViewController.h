@@ -14,8 +14,6 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-static const int kNumberOfMessages = 20;
-
 @interface InboxViewController : UITableViewController {
     AppDelegate *appDelegate;
     NSArray *messageArray;
